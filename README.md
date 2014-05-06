@@ -1,6 +1,6 @@
-## Webhook site builder
+## Wyrm theme for Webhook
 
-This repository is a collection of [Grunt](http://www.gruntjs.com) tasks, templates
-and static assets that build and serve a Webhook powered site.
+This is a starter site theme that uses the [Wyrm Sass](http://www.wyrmsass.org)
+frontend framework. It also includes some other common javascript used
+in most website builds.
 
-[Documentation found here](http://webhook.com/docsalpha/)
