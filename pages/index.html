@@ -1,0 +1,31 @@
+{# YOUR HOMEPAGE #}
+
+{# First time seeing extend or blocks? Want to know how it works? Tutorial here: http://www.webhook.com #}
+{% extends "templates/partials/base.html" %}
+
+{% block content %}
+
+  <h1>Hello world!</h1>
+
+  <p>This is your homepage, located at /pages/index.html.</p>
+
+  <p><a href="/cms/">Looking for the CMS?</a></p>
+
+  {# Grabs the data to list all the content types (set as multiple) from the CMS. #}
+  {% set types = getTypes() %}
+
+  {# If you have at least content page type, we show a list. #}
+  {% if types|size !== 0 %}
+
+    <h3>Content types you've created in the CMS so far.</h3>
+
+    <ul>
+    {% for type in types %}
+      <li><a href="{{ url(type) }}">{{ type.name }}</a></li>
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+
+{% endblock %}
