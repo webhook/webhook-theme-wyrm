@@ -12,6 +12,13 @@ pids
 logs
 results
 bower_components
+libs
+options
+pages
+tasks
+404.html
+templates
+!templates/partials/base.html
 npm-debug.log
 node_modules
 .sass-cache
