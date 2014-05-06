@@ -17,7 +17,7 @@ options
 pages
 tasks
 404.html
-templates
+templates/partials/*
 !templates/partials/base.html
 npm-debug.log
 node_modules
