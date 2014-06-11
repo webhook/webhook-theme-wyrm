@@ -33,8 +33,8 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-      // Import the Webhook affix JS
-      font-awesome: {
+      // Import Fontawesome fonts
+      fontawesome: {
         files: [
           {expand: true, src: ['bower_components/font-awesome/fonts/*'], dest: 'static/fonts/', flatten: true, filter: 'isFile'}
         ]
