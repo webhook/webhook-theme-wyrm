@@ -16,12 +16,10 @@
     "tests"
   ],
   "dependencies": {
-    "bourbon": "~3.1.8",
     "fluidbox": "~1.3.2",
     "font-awesome": "~4.0.3",
     "google-code-prettify": "~1.0.1",
     "highlight": "~7.0.1",
-    "neat": "~1.4.0",
     "webhook-js": "*",
     "wyrm": "~0.0.x"
   }
